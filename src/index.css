@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;1,400;1,500&display=swap');
+
+:root {
+  --paper: #faf8f2;
+  --ink: #30372f;
+  --moss: #344839;
+  --terracotta: #b56d55;
+  --line: #e5e1d7;
+  --sans: 'DM Sans', 'Segoe UI', sans-serif;
+  --serif: 'Playfair Display', Georgia, serif;
+  font-family: var(--sans);
+  color: var(--ink);
+  background: var(--paper);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  color-scheme: light;
+}
+
+* { box-sizing: border-box; }
+html { min-width: 320px; scroll-behavior: smooth; scroll-padding-top: 25px; }
+body { min-width: 320px; min-height: 100vh; margin: 0; }
+body, button, input, textarea, select { font-family: var(--sans); }
+button, input, textarea, select { font-size: inherit; }
+button:focus-visible, a:focus-visible, input:focus-visible, textarea:focus-visible, select:focus-visible { outline: 2px solid var(--terracotta); outline-offset: 3px; }
+::selection { background: #e9d2c5; color: var(--moss); }
+#root { min-height: 100vh; }
+img { max-width: 100%; }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { scroll-behavior: auto !important; animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; }
+}
