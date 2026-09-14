@@ -2,6 +2,8 @@
 
 A responsive florist storefront concept inspired by the user's mobile shopping reference. The brand, imagery, product names, and copy are original.
 
+**Live preview:** [aqilizham.github.io/petal-and-post](https://aqilizham.github.io/petal-and-post/)
+
 ## Run locally
 
 ```sh
